@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(45, 41, 95);
+    color: white;
+}
+
+.navbar {
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.ul-navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.li-navbar {
+    list-style: none;
+    padding: 50px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.a-navbar:hover {
+    transition: 0.2s 0.2s ease-in-out;
+    font-size: 18px;
+    color: rgb(231, 101, 101);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.warna {
+    color: rgb(231, 101, 101);
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.h2-content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.makanan1 {
+    background-color: rgb(75, 118, 184);
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.food1 {
+    height: 200px;
+}
+
+.food2 {
+    height: 200px;
+    width: 235px;
+}
+
+.food3 {
+    height: 200px;
+    width: 235px;
+}
